@@ -25,6 +25,7 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+npm-debug.log*
 
 # macOS
 .DS_Store
@@ -35,3 +36,29 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Android
+android/build/
+android/app/build/
+android/app/.cxx/
+android/app/.gradle/
+android/app/src/debug/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.iml
+.gradle/
+local.properties
+
+# iOS
+ios/build/
+ios/DerivedData/
+*.ipa
+*.xcarchive
+*.xccheckout
+*.xcscheme
+*.xcuserstate
+Pods/
+# Add any other sensitive files or build artifacts here
